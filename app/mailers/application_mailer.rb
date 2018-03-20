@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'do-not-reply@recoveryunits.com'
+  default from: 'from@example.com'
   layout 'mailer'
 end

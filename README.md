@@ -1,25 +1,8 @@
-# README
-rails s -b $IP -p $PORT
+Restric Access -
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Hide the "New Article" button from non-signed in users
+- Hide the "Edit" and "Delete" buttons from non-owners of the article 
+- Permit the owners to edit or delete their own articles
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Homework: Do the same restrict access (controller) for delete
